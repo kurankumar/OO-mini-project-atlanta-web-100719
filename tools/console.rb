@@ -26,12 +26,20 @@ ri7 = RecipeIngredient.new(fish, bad_pizza)
 ri8 = RecipeIngredient.new(salt, bad_pizza)
 
 rc1 = RecipeCard.new(clark, "Monday", chicken_stew, 4)
-rc2 = RecipeCard.new(kuran, "Friday", bad_pizza, 5)
+rc2 = RecipeCard.new(kuran, "Friday", pepperoni_pizza, 5)
 rc3 = RecipeCard.new(javi, "Saturday", bad_pizza, 1)
 rc4 = RecipeCard.new(dan, "Thursday", pepperoni_pizza, 4)
+rc5 = RecipeCard.new(kuran, "Tuesday", bad_pizza, 2)
+rc7 = RecipeCard.new(kuran, "Monday", pepperoni_pizza, 100)
+rc6 = RecipeCard.new(kuran, "Wednesday", chicken_stew, 3)
+rc8 = RecipeCard.new(clark, "Wednesday", pepperoni_pizza, 7)
+rc9 = RecipeCard.new(clark, "Monday", bad_pizza, 2)
+rc10 = RecipeCard.new(clark, "Saturday", chicken_stew, 1)
 
 algy1 = Allergy.new(clark, anchovies)
 algy2 = Allergy.new(kuran, salt)
-algy2 = Allergy.new(javi, pepper)
+algy3 = Allergy.new(javi, pepper)
+algy4 = Allergy.new(javi, fish)
+algy4 = Allergy.new(javi, salt)
 
 binding.pry
